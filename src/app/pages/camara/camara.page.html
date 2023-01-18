@@ -1,0 +1,18 @@
+<app-page-header titulo="Cámara"></app-page-header>
+
+<ion-content>
+
+    <ion-button (click)="sacarFoto()" expand="block" fill="clear" shape="round">
+        Click me
+    </ion-button>
+    <ion-img [src]="url"></ion-img>
+
+    <!--<ion-grid fixed>
+        <ion-row>
+            <ion-col size="3" *ngFor="let url of listaUrl">
+                <ion-img [src]="url"></ion-img>
+            </ion-col>
+        </ion-row>
+    </ion-grid> -->
+
+</ion-content>
